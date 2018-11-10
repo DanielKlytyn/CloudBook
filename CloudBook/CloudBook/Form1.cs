@@ -19,7 +19,7 @@ namespace CloudBook
 
         public void Limpar()
         {
-
+            MessageBox.Show("Hello Word!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
