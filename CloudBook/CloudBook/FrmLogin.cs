@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace CloudBook
 {
-    public partial class Form1 : Form
+    public partial class FrmLogin : Form
     {
-        public Form1()
+        public FrmLogin()
         {
             InitializeComponent();
-        }
-
-        public void Limpar()
-        {
-            MessageBox.Show("Hello Word!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
