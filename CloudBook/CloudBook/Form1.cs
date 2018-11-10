@@ -16,5 +16,10 @@ namespace CloudBook
         {
             InitializeComponent();
         }
+
+        public void Limpar()
+        {
+
+        }
     }
 }
