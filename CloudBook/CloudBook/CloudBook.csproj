@@ -48,12 +48,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CloudBook.Controller\Criptografia.cs" />
+    <Compile Include="CloudBook.Controller\ConexaoController.cs" />
+    <Compile Include="CloudBook.Controller\LoginController.cs" />
+    <Compile Include="CloudBook.Model\LoginController.cs" />
+    <Compile Include="CloudBook.Model\LoginModel.cs" />
     <Compile Include="CloudBook.View\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CloudBook.View\FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CloudBook.View\FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CloudBook.View\FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,9 +92,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CloudBook.Model\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\logocloudbook.png" />
   </ItemGroup>
